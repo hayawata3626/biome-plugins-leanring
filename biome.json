@@ -1,6 +1,6 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.0.0-beta.5/schema.json",
-  "plugins": ["./plugins/use-arrorw-function.grit"],
+  "plugins": ["./plugins/no-function-declaration.grit"],
   "vcs": {
     "enabled": false,
     "clientKind": "git",
