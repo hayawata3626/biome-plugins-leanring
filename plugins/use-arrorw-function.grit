@@ -1,0 +1,6 @@
+`function $name($params) { $body }` where {
+  register_diagnostic(
+    span = $name,
+    message = "Use arrow functions instead of `function` declarations."
+  )
+}
